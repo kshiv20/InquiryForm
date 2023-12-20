@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DejaVu Sans';
+    background: #fbfbfb!important;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../fonts/DejaVuSans.eot');
+    src: url('../fonts/DejaVuSans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans.woff2') format('woff2'),
+         url('../fonts/DejaVuSans.woff') format('woff'),
+         url('../fonts/DejaVuSans.ttf')  format('truetype'),
+         url('../fonts/DejaVuSans.svg#DejaVu Sans') format('svg');
+}
+
+/* light */
+
+@font-face {
+    font-family: 'DejaVu Sans Light';
+    src: url('../fonts/DejaVuSans-ExtraLight.eot');
+    src: url('../fonts/DejaVuSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans-ExtraLight.woff2') format('woff2'),
+         url('../fonts/DejaVuSans-ExtraLight.woff') format('woff'),
+         url('../fonts/DejaVuSans-ExtraLight.ttf')  format('truetype'),
+         url('../fonts/DejaVuSans-ExtraLight.svg#DejaVu Sans Light') format('svg');
+}
+
+header .menu li{ list-style: none;}
+header .menu li a{ text-decoration: none;}
+header .menu li {
+    list-style: none;
+    flex: 1 1 auto;
+    text-align: center;
+}       
+ul.menu{
+    flex: 1;
+    max-width: 473px;   
+}
+
+.navbar-nav li:last-child a{
+    border: 1px solid red;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(7 7 7)!important;
+    font-weight: 500;
+}
+ul.navbar-nav{
+    margin-left: auto!important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.9rem!important;
+    padding-left: 0.9rem!important;
+}
+
+header .menu li a {
+    text-decoration: none;
+    display: block;
+}
+.inquiry-heading{
+    color: #ff2325;
+}
+.inquiry-head h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.inquiry-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner-text-colr{
+    color: #ff2325;
+}
+.banner-text h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner-text{
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 21px 0px;
+}
+.banner-text p{
+    font-family: 'DejaVu Sans Light';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner-btn {
+    text-align: center;
+    background: red;
+    color: #fff;
+    padding: 13px 6px;
+    max-width: 200px;
+    font-size: 13px;
+    font-family: 'DejaVu Sans Light';
+    cursor: pointer;
+}
+a.text-decoration-none.btn-color {
+    color: #ffff;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 8px 0px;
+    margin:  0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #eeee;
+    
+}
+input::placeholder{
+    font-weight: 600;
+    color: #3e3e3e;
+    
+}
+label{
+    
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+.submit-btn {
+    font-size: 18px;
+    max-width: 250px;
+    text-align: center;
+    color: #fff;
+}
+.btn-primary{
+    background: #ff2325;
+    padding: 8px 8px;
+    width:100%;
+    border: none;
+    border-color: #ff2325;
+   
+}
+.btn-primary:hover, .btn-primary:visited, .btn-primary:active, .btn-primary:focus{
+    background: #ff2325;
+    border-color: #ff2325;
+
+}
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active,.btn-primary:active:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.submit-btn a{
+    color: #fff;
+}
+.navbar-toggler {
+    
+    background-color: #141313!important;
+    
+}
+@media screen and (max-width:576px) {
+    .banner-re{
+        flex-direction: column-reverse;
+    }
+    
+}
